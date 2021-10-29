@@ -41,7 +41,7 @@ router.get('/add', (req, res, next) => {
 // POST process the Book Details page and create a new Book - CREATE
 router.post('/add', (req, res, next) => {
 
-  // creating an oject of the book model class
+  // create an oject of the book model class
   let newbook = book({
     "Title": req.body.title,
     "Price": req.body.price,
@@ -103,7 +103,7 @@ book.updateOne({_id: id}, updatedBooks, (err) => {
   }
   else
   {
-      // Redirect the user back to the BookList page
+      // Redirect the user back to the BookList page after update
       res.redirect('/books');
   }
 });
@@ -114,7 +114,7 @@ book.updateOne({_id: id}, updatedBooks, (err) => {
 router.get('/delete/:id', (req, res, next) => {
   let id = req.params.id;
 
-  //Passing ID to the book's remove method
+  //pass id to the remove method
   book.remove({_id: id}, (err) => {
       if(err)
       {
@@ -123,7 +123,7 @@ router.get('/delete/:id', (req, res, next) => {
       }
       else
       {
-           // Redirect the user back to the BookList page
+           // redirect the user back to the BookList page
            res.redirect('/books');
       }
   });
