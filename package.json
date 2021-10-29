@@ -25,7 +25,7 @@
     "popper.js": "^1.16.1"
   },
   "engines": {
-    "node": "^10.15.0",
+    "node": "^12.18.3",
     "npm": "^6.0.0"
   },
   "description": "## Welcome to the MidTerm Project - the Favourite Book List App",
@@ -45,17 +45,17 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git+https://github.com/PrinceDuru/COMP229-F2020-Midterm-301167756.git"
   },
   "keywords": [
     "NodeJS",
     "ExpressJS",
     "EJS"
   ],
-  "author": "Your Name Goes Here",
+  "author": "Prince Duru",
   "license": "ISC",
   "bugs": {
-    "url": ""
+    "url": "https://github.com/PrinceDuru/COMP229-F2020-Midterm-301167756.git"
   },
-  "homepage": ""
+  "homepage": "https://github.com/PrinceDuru/COMP229-F2020-Midterm-301167756.git"
 }
