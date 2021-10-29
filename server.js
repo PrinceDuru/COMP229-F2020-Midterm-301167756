@@ -1,3 +1,10 @@
+/* File name: server.js
+Name: Prince Duru
+Student Id: 301167756
+Date: 10/29/2021
+Favourite Book List */
+
+
 let app = require('./server/config/app');
 let debug = require('debug')('comp308-w2019-midterm:server');
 let http = require('http');
